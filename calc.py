@@ -8,6 +8,10 @@ def calc():
             ans += num
         elif ops[i] == '-':
             ans -= num
+        elif ops[i] == '*':
+            ans &= num
+        elif ops[i] == '/':
+            ans /= num
 
     return ans
 
