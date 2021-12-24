@@ -9,7 +9,7 @@ def calc():
         elif ops[i] == '-':
             ans -= num
         elif ops[i] == '*':
-            ans &= num
+            ans *= num
         elif ops[i] == '/':
             ans /= num
 
