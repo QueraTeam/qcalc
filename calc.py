@@ -9,12 +9,11 @@ def calc():
         elif ops[i] == '-':
             ans -= num
         elif ops[i] == '*':
-            ans &= num
+            ans *= num
         elif ops[i] == '/':
             ans /= num
 
     return ans
-
 
 if __name__ == '__main__':
     print(calc())
